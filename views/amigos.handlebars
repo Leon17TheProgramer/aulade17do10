@@ -1,0 +1,15 @@
+<h2 class="pessoa-title">Amigos</h2>
+<br>
+<hr>
+<br>
+{{#each pessoas}}
+<br>
+    <div class="pessoa-div">
+        <p class="pessoa-name">{{this.nome}}</p>
+        <br>
+        <button class="pessoa-btn">
+            <a href="/amigo/{{this.id}}">Detalhes</a>
+        </button>
+    </div>
+{{/each}}
+<br>

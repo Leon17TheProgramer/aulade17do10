@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    font-family: 'Press Start 2P';
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0 0 8 px;
+    margin-top: 40px;
+}
+.form{
+    max-width: 960px;
+    margin: 80px auto 0;
+    border: 2px solid white;
+    box-shadow: 0 0 8px white;
+    border-radius: 8px;
+    padding: 80px 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form input[type="submit"]{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    transition: .5s;
+}
+
+.form input[type='submit']:hover{
+    box-shadow: 0 0 8px white;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.form-control input{
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    caret-color: white;
+    font-size: 16px;
+}
